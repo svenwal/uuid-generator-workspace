@@ -75,7 +75,7 @@ contents: >
           - CatOrDog
           - Body
         x-kong-plugin-request-validator:
-          enabled: true 
+          enabled: false 
     /delay/{delay}: 
       get:
         parameters:
