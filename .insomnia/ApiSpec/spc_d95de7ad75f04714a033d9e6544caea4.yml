@@ -1,14 +1,14 @@
 _id: spc_d95de7ad75f04714a033d9e6544caea4
 type: ApiSpec
 parentId: wrk_e6ba072735a34773b2072b7379fce33b
-modified: 1671610765830
+modified: 1685626382319
 created: 1603090884967
 fileName: uuid-generator.yaml
 contents: >
   openapi: 3.0.0
 
   servers:
-    - url: https://httpbin.org
+    - url: https://httpbin.apim.eu
   info:
     contact:
       email: me@kennethreitz.org
