@@ -1,15 +1,15 @@
 _id: env_ee4f32dde4d14677a633736b07f8d0a9
 type: Environment
 parentId: env_63c85d61384e0abffc70d232654e3642e173509e
-modified: 1686725435285
+modified: 1686727492285
 created: 1646132133856
-name: Sandbox
+name: Local docker compose (8000)
 data:
   scheme: http
   base_path: ""
   host: localhost:8000
   codes: "200"
-  apikey: developer
+  apikey: silver
 dataPropertyOrder:
   "&":
     - scheme
@@ -17,6 +17,6 @@ dataPropertyOrder:
     - host
     - codes
     - apikey
-color: null
+color: "#0ad6ff"
 isPrivate: false
-metaSortKey: 2
+metaSortKey: 0

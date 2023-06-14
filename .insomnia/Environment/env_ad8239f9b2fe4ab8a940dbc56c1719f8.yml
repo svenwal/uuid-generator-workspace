@@ -1,13 +1,13 @@
-_id: env_35b9949a50394f1fb42ec084bf986704
+_id: env_ad8239f9b2fe4ab8a940dbc56c1719f8
 type: Environment
 parentId: env_63c85d61384e0abffc70d232654e3642e173509e
-modified: 1686727496463
-created: 1667465070635
-name: Production AWS
+modified: 1686727494468
+created: 1686727329382
+name: Local Kubernetes (9000)
 data:
-  scheme: https
+  scheme: http
   base_path: ""
-  host: aws.frankfurt.konnect.sven.service-connectivity.com
+  host: localhost:9000
   codes: "200"
   apikey: silver
 dataPropertyOrder:
@@ -17,6 +17,6 @@ dataPropertyOrder:
     - host
     - codes
     - apikey
-color: "#ff0a0a"
+color: "#ff0af7"
 isPrivate: false
-metaSortKey: 3
+metaSortKey: 0

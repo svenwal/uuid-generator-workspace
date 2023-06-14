@@ -1,7 +1,7 @@
 _id: req_wrk_e6ba072735a34773b2072b7379fce33b6b69dbeb
 type: Request
 parentId: fld_wrk_e6ba072735a34773b2072b7379fce33baa8f342e
-modified: 1669199300915
+modified: 1686727507395
 created: 1603093186509
 url: "{{ base_url }}/uuid"
 name: Return a UUID4.
@@ -9,11 +9,7 @@ description: ""
 method: GET
 body: {}
 parameters: []
-headers:
-  - name: token
-    value: sdjdöklg
-    description: ""
-    id: pair_c6647a9f70a94ac1829348eb50097bc4
+headers: []
 authentication: {}
 metaSortKey: -1603093186609
 isPrivate: false
