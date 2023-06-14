@@ -1,10 +1,11 @@
 _id: req_wrk_e6ba072735a34773b2072b7379fce33b02ea50fd1
 type: Request
 parentId: wrk_e6ba072735a34773b2072b7379fce33b
-modified: 1686726387601
+modified: 1686727669269
 created: 1642083636446
 url: "{{ base_url }}/status/{{ codes }}"
-name: Return status code or random status code if more than one are given
+name: Return status code or random status code if more than one are given with
+  api key
 description: ""
 method: GET
 body: {}
@@ -12,8 +13,9 @@ parameters: []
 headers:
   - id: pair_96087b5cdbcc4a3dade45c4a6c2f31e2
     name: apikey
-    value: silver
+    value: "{{ _.apikey }}"
     description: ""
+    disabled: false
 authentication: {}
 metaSortKey: -1642083636447
 isPrivate: false
