@@ -1,18 +1,20 @@
 _id: env_ee4f32dde4d14677a633736b07f8d0a9
 type: Environment
 parentId: env_63c85d61384e0abffc70d232654e3642e173509e
-modified: 1667465766625
+modified: 1686724931122
 created: 1646132133856
 name: Sandbox
 data:
   scheme: http
   base_path: ""
   host: localhost:8000
+  codes: "200"
 dataPropertyOrder:
   "&":
     - scheme
     - base_path
     - host
+    - codes
 color: null
 isPrivate: false
 metaSortKey: 2
