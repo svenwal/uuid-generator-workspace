@@ -8,3 +8,4 @@ name: Endpoint available and returns a 200
 code: |-
   const response1 = await insomnia.send();
   expect(response1.status).to.equal(200);
+metaSortKey: -1712729953165

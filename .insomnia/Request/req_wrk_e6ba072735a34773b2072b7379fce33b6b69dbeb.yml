@@ -1,18 +1,25 @@
 _id: req_wrk_e6ba072735a34773b2072b7379fce33b6b69dbeb
 type: Request
 parentId: fld_wrk_e6ba072735a34773b2072b7379fce33baa8f342e
-modified: 1686727507395
+modified: 1712732383820
 created: 1603093186509
-url: "{{ base_url }}/uuid"
+url: "{{ _.base_url }}/uuid"
 name: Return a UUID4.
 description: ""
 method: GET
 body: {}
+preRequestScript: ""
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: apikey
+  disabled: false
+  key: .
+  value: ""
+  addTo: header
 metaSortKey: -1603093186609
 isPrivate: false
+pathParameters: []
 settingStoreCookies: true
 settingSendCookies: true
 settingDisableRenderRequestBody: false

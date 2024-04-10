@@ -8,6 +8,7 @@ name: Return anything data.
 description: ""
 method: GET
 body: {}
+preRequestScript: ""
 parameters:
   - name: exampleParam
     disabled: false
@@ -16,6 +17,7 @@ headers: []
 authentication: {}
 metaSortKey: -1642083636463
 isPrivate: false
+pathParameters: []
 settingStoreCookies: true
 settingSendCookies: true
 settingDisableRenderRequestBody: false

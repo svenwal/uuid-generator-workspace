@@ -8,11 +8,13 @@ name: Returns a delayed response (max of 10 seconds).
 description: ""
 method: GET
 body: {}
+preRequestScript: ""
 parameters: []
 headers: []
 authentication: {}
 metaSortKey: -1642083636453
 isPrivate: false
+pathParameters: []
 settingStoreCookies: true
 settingSendCookies: true
 settingDisableRenderRequestBody: false

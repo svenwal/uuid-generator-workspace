@@ -1,7 +1,7 @@
 _id: env_0ab9354e95d6411bbbff5d57e109357f
 type: Environment
 parentId: env_63c85d61384e0abffc70d232654e3642e173509e
-modified: 1686727488778
+modified: 1712732365675
 created: 1667465749024
 name: Live backend direct (no gateway)
 data:
@@ -10,6 +10,7 @@ data:
   host: httpbin.apim.eu
   codes: "200"
   apikey: silver
+  base_url: http://httpbin.apim.eu
 dataPropertyOrder:
   "&":
     - scheme
@@ -17,6 +18,7 @@ dataPropertyOrder:
     - host
     - codes
     - apikey
+    - base_url
 color: "#0eff0a"
 isPrivate: false
 metaSortKey: -1
