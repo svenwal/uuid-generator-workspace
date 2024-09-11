@@ -10,15 +10,16 @@ method: POST
 body:
   mimeType: application/json
   text: "null"
-preRequestScript: ""
 parameters: []
 headers:
   - name: Content-Type
     value: application/json
 authentication: {}
+preRequestScript: ""
 metaSortKey: -1642083636458
 isPrivate: false
 pathParameters: []
+afterResponseScript: null
 settingStoreCookies: true
 settingSendCookies: true
 settingDisableRenderRequestBody: false

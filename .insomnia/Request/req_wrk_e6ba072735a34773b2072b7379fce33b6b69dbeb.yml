@@ -8,7 +8,6 @@ name: Return a UUID4.
 description: ""
 method: GET
 body: {}
-preRequestScript: ""
 parameters: []
 headers: []
 authentication:
@@ -17,9 +16,11 @@ authentication:
   key: .
   value: ""
   addTo: header
+preRequestScript: ""
 metaSortKey: -1603093186609
 isPrivate: false
 pathParameters: []
+afterResponseScript: null
 settingStoreCookies: true
 settingSendCookies: true
 settingDisableRenderRequestBody: false

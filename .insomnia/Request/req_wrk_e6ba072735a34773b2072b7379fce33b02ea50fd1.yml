@@ -9,7 +9,6 @@ name: Return status code or random status code if more than one are given with
 description: ""
 method: GET
 body: {}
-preRequestScript: ""
 parameters: []
 headers:
   - id: pair_96087b5cdbcc4a3dade45c4a6c2f31e2
@@ -18,9 +17,11 @@ headers:
     description: ""
     disabled: false
 authentication: {}
+preRequestScript: ""
 metaSortKey: -1642083636447
 isPrivate: false
 pathParameters: []
+afterResponseScript: null
 settingStoreCookies: true
 settingSendCookies: true
 settingDisableRenderRequestBody: false

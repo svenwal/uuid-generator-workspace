@@ -8,13 +8,14 @@ name: Return status code or random status code if more than one are given
 description: ""
 method: GET
 body: {}
-preRequestScript: ""
 parameters: []
 headers: []
 authentication: {}
+preRequestScript: ""
 metaSortKey: -1642083636449
 isPrivate: false
 pathParameters: []
+afterResponseScript: null
 settingStoreCookies: true
 settingSendCookies: true
 settingDisableRenderRequestBody: false

@@ -1,7 +1,7 @@
 _id: spc_d95de7ad75f04714a033d9e6544caea4
 type: ApiSpec
 parentId: wrk_e6ba072735a34773b2072b7379fce33b
-modified: 1712731177830
+modified: 1726054458088
 created: 1603090884967
 fileName: uuid-generator.yaml
 contents: >
@@ -40,8 +40,6 @@ contents: >
       get:
         description: returns all your query parameters
         operationId: query
-        security:
-          - KeyCloak: [kong_api_access]
         parameters:
           - in: query
             name: exampleParam
