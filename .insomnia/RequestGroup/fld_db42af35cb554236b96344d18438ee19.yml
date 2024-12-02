@@ -1,0 +1,15 @@
+_id: fld_db42af35cb554236b96344d18438ee19
+type: RequestGroup
+parentId: wrk_e6ba072735a34773b2072b7379fce33b
+modified: 1733130310212
+created: 1733130272924
+name: Echo service
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1733130297954
+preRequestScript: null
+afterResponseScript: null
+authentication: null
+headers: null
+environmentType: kv

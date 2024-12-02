@@ -1,0 +1,15 @@
+_id: fld_93aeb84c7f784a55b80d36500314b550
+type: RequestGroup
+parentId: wrk_e6ba072735a34773b2072b7379fce33b
+modified: 1733130215345
+created: 1733130215345
+name: Random Status Codes
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1733130215345
+preRequestScript: null
+afterResponseScript: null
+authentication: null
+headers: null
+environmentType: kv

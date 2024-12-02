@@ -1,7 +1,7 @@
 _id: req_wrk_e6ba072735a34773b2072b7379fce33b6b69dbeb
 type: Request
 parentId: fld_wrk_e6ba072735a34773b2072b7379fce33baa8f342e
-modified: 1712732383820
+modified: 1731938571255
 created: 1603093186509
 url: "{{ _.base_url }}/uuid"
 name: Return a UUID4.
@@ -20,7 +20,17 @@ preRequestScript: ""
 metaSortKey: -1603093186609
 isPrivate: false
 pathParameters: []
-afterResponseScript: null
+afterResponseScript: |+
+  
+  insomnia.test('Check if status is 200', () => {
+      insomnia.expect(insomnia.response.code).to.eql(200);
+  });
+
+  insomnia.test('Check if response has a UUID prooperty of type string', () => {
+      insomnia.expect(insomnia.response.code).to.eql(200);
+  	  insomnia.expect('uuid').to.be.a('string');
+  });
+
 settingStoreCookies: true
 settingSendCookies: true
 settingDisableRenderRequestBody: false

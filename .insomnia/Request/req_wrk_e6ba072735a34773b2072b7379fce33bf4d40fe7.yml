@@ -1,7 +1,7 @@
 _id: req_wrk_e6ba072735a34773b2072b7379fce33bf4d40fe7
 type: Request
-parentId: wrk_e6ba072735a34773b2072b7379fce33b
-modified: 1642083636463
+parentId: fld_db42af35cb554236b96344d18438ee19
+modified: 1733130284082
 created: 1642083636463
 url: "{{ base_url }}/anything/query"
 name: Return anything data.
@@ -12,13 +12,28 @@ parameters:
   - name: exampleParam
     disabled: false
     value: "0"
-headers: []
-authentication: {}
+headers:
+  - id: pair_b2f678508fc14f76b15281a3398e4d85
+    name: ""
+    value: ""
+    description: ""
+    disabled: false
+authentication:
+  type: apikey
+  disabled: false
+  key: dsfjhg
+  value: ""
+  addTo: header
 preRequestScript: ""
-metaSortKey: -1642083636463
+metaSortKey: -1733130284053
 isPrivate: false
 pathParameters: []
-afterResponseScript: null
+afterResponseScript: |+
+  
+  insomnia.test('Check if status is 200', () => {
+      insomnia.expect(insomnia.response.code).to.eql(200);
+  });
+
 settingStoreCookies: true
 settingSendCookies: true
 settingDisableRenderRequestBody: false

@@ -1,7 +1,7 @@
 _id: req_wrk_e6ba072735a34773b2072b7379fce33b02ea50fd
 type: Request
-parentId: wrk_e6ba072735a34773b2072b7379fce33b
-modified: 1642083636449
+parentId: fld_93aeb84c7f784a55b80d36500314b550
+modified: 1733130227962
 created: 1642083636449
 url: "{{ base_url }}/status/{{ codes }}"
 name: Return status code or random status code if more than one are given
@@ -12,10 +12,15 @@ parameters: []
 headers: []
 authentication: {}
 preRequestScript: ""
-metaSortKey: -1642083636449
+metaSortKey: -1733130224213
 isPrivate: false
 pathParameters: []
-afterResponseScript: null
+afterResponseScript: |+
+  
+  insomnia.test('Check if status is 200', () => {
+      insomnia.expect(insomnia.response.code).to.eql(200);
+  });
+
 settingStoreCookies: true
 settingSendCookies: true
 settingDisableRenderRequestBody: false

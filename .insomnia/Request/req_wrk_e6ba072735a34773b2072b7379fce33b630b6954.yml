@@ -1,7 +1,7 @@
 _id: req_wrk_e6ba072735a34773b2072b7379fce33b630b6954
 type: Request
-parentId: wrk_e6ba072735a34773b2072b7379fce33b
-modified: 1642083636453
+parentId: fld_2527b52e3c3c40e3a8e2d7952bd98ae9
+modified: 1733130303788
 created: 1642083636453
 url: "{{ base_url }}/delay/{{ delay }}"
 name: Returns a delayed response (max of 10 seconds).
@@ -12,10 +12,15 @@ parameters: []
 headers: []
 authentication: {}
 preRequestScript: ""
-metaSortKey: -1642083636453
+metaSortKey: -1733130303730
 isPrivate: false
 pathParameters: []
-afterResponseScript: null
+afterResponseScript: |+
+  
+  insomnia.test('Check if status is 200', () => {
+      insomnia.expect(insomnia.response.code).to.eql(200);
+  });
+
 settingStoreCookies: true
 settingSendCookies: true
 settingDisableRenderRequestBody: false
